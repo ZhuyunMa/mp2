@@ -8,7 +8,7 @@ import "./main.css";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/mp2">
       <SelectionProvider>
         <NavBar />
         <Routes>
